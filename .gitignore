@@ -1,19 +1,7 @@
-# Object files
-*.o
-*.*~
-.DS*
-
-# Libraries
-*.lib
-*.a
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
+# file manager empty files
+.DS_Store
+.empty
+.sparkleshare
+# font editor temporary files
+*(Autosaved).glyphs
+*.vfbak
