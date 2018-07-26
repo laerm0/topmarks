@@ -3,7 +3,7 @@
 DisplayStrings = (
 "/four.numr"
 );
-copyright = "Copyright (c) 2012-13 by vernon adams.";
+copyright = "Copyright 2018 The Topmarks Project Authors (https://github.com/vernnobile/topmarks)";
 customParameters = (
 {
 name = note;
@@ -12,14 +12,6 @@ value = "";
 {
 name = description;
 value = "Copyright (c) 2011 by vernon adams. All rights reserved.";
-},
-{
-name = openTypeNameLicense;
-value = "Copyright (c) 2013, vernon adams (<URL|email>),\012with Reserved Font Name Topmarks.\012\012This Font Software is licensed under the SIL Open Font License, Version 1.1.\012This license is copied below, and is also available with a FAQ at:\012http://scripts.sil.org/OFL";
-},
-{
-name = openTypeNameLicenseURL;
-value = "http://scripts.sil.org/OFL";
 },
 {
 name = openTypeNameVersion;
@@ -51,9 +43,17 @@ value = 7;
 {
 name = trademark;
 value = "Topmarks is a trademark of vernon adams.";
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
 }
 );
-date = "2018-07-25 18:37:01 +0000";
+date = "2018-07-26 17:58:34 +0000";
 designer = "vernon adams";
 disablesNiceNames = 1;
 familyName = Topmarks;
@@ -99,44 +99,14 @@ name = ordn;
 fontMaster = (
 {
 alignmentZones = (
-"{1560, 26}",
-"{1026, 26}",
-"{0, -24}",
-"{-508, -66}",
+"{1560, 27}",
+"{1560, 16}",
+"{1026, 27}",
+"{0, -25}",
 "{-656, -31}"
 );
 ascender = 1560;
 capHeight = 1560;
-customParameters = (
-{
-name = typoAscender;
-value = 1968;
-},
-{
-name = typoDescender;
-value = -656;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 1968;
-},
-{
-name = winDescent;
-value = 656;
-},
-{
-name = underlineThickness;
-value = 0;
-},
-{
-name = underlinePosition;
-value = 0;
-}
-);
 descender = -656;
 horizontalStems = (
 20,
@@ -158,45 +128,14 @@ xHeight = 1026;
 },
 {
 alignmentZones = (
-"{1557, 27}",
-"{1456, 24}",
-"{1026, 60}",
-"{0, -24}",
-"{-574, -1}",
+"{1560, 16}",
+"{1557, 28}",
+"{1026, 23}",
+"{0, -25}",
 "{-656, -31}"
 );
 ascender = 1560;
 capHeight = 1557;
-customParameters = (
-{
-name = typoAscender;
-value = 1968;
-},
-{
-name = typoDescender;
-value = -656;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 1968;
-},
-{
-name = winDescent;
-value = 656;
-},
-{
-name = underlineThickness;
-value = 0;
-},
-{
-name = underlinePosition;
-value = 0;
-}
-);
 descender = -656;
 horizontalStems = (
 20,
@@ -27750,13 +27689,17 @@ value = "Topmarks-Book";
 {
 name = postscriptFullName;
 value = "Topmarks Book";
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 138;
 instanceInterpolations = {
 "850197A4-73EE-4DD1-A43D-17FCD4749099" = 1;
 };
-name = Book;
+name = Regular;
 weightClass = Normal;
 },
 {
@@ -27768,6 +27711,10 @@ value = "Topmarks-Bold";
 {
 name = postscriptFullName;
 value = "Topmarks Bold";
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 interpolationWeight = 193;
@@ -27775,42 +27722,41 @@ instanceInterpolations = {
 "8183A7D6-F04A-4582-B03C-55CCED69A0BD" = 1;
 };
 isBold = 1;
-linkStyle = Book;
 name = Bold;
 weightClass = Bold;
 }
 );
 kerning = {
 "8183A7D6-F04A-4582-B03C-55CCED69A0BD" = {
-w = {
-period = -50;
-};
 F = {
 comma = -150;
 period = -70;
 };
-v = {
-period = -60;
-};
 K = {
 Q = -28;
+};
+L = {
+Q = -22;
+V = -34;
+W = -22;
+quotedblright = -210;
+quoteright = -140;
+v = -12;
+w = -14;
 };
 P = {
 comma = -160;
 period = -100;
 };
-L = {
-Q = -22;
-V = -34;
-quoteright = -140;
-W = -22;
-v = -12;
-w = -14;
-quotedblright = -210;
-};
 f = {
-quoteright = 70;
 quotedblright = 30;
+quoteright = 70;
+};
+v = {
+period = -60;
+};
+w = {
+period = -50;
 };
 };
 };
